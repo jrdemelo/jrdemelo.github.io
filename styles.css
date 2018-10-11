@@ -1,0 +1,61 @@
+body {margin: 0 !important; padding: 0 !important; }
+.row:after {display: flex; clear: both; }
+.column img {flex-shrink: 0; min-width: 100%; height: 100%; }
+.left {background-color: snow; float: left; width: 50%; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+.left img {height: 100%; }
+.leftbsfp {background-color: snow; float: left; width: 50%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+.leftbsfp img {height: 100%; max-width: 450px; max-height: 450px; align-items: stretch; }
+.right {background-color: snow; height: 100%; width: 50%; display: flex; justify-content: center; align-items: center; min-width: 150px; }
+.outerbox {  }
+/* Navigation Bar code here */
+.navbarbox {height: 18%; display: flex; align-items: center; justify-content: center; text-align: center; vertical-align: middle; }
+.navbar {display: inline-block; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 28px; flex-wrap: wrap;
+	/* Flexbox lets it adjust, align/justify centers everything, flex-wrap allows it to become one column when the page is too small, minwidth doesn't allow it to bleed into one another */ }
+.navbar a:link, a:visited {color: black; padding-left: 15px; padding-right: 15px; text-decoration: none; }	
+.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
+
+/* Body of the page here */
+.pitchbox {height: 67%; display: flex; }
+.pitch {width: 100%; display: flex; justify-content: center; ; vertical-align: middle; padding: 7.5% 7.5% 7.5% 7.5%; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 18px; flex-wrap: wrap; } /* Adjust the padding in here but it should flex */
+.headings {display: block; text-align: left; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; line-height: 200%; max-height: 280px}
+.headingssubpage {display: block; text-align: left; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; line-height: 200%; max-height: 280px; word-wrap: break-word;}
+
+.bodytext {display: inline-flex; text-align: left; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; }
+.bodytextbsfp {text-align: left; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+.bodytextbsfp img {padding: 10px 20px 10px 20px; height: 300px; text-align: center; }
+.notice {display: block; text-align: center; align-self: flex-end; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 14px; flex-wrap: wrap; color: black; font-style: italic; }
+
+/* Social media icons here */
+.social {height: 15%; display:flex; align-items: center; justify-content: center; text-align: center; }
+.social img {display: flex; padding: 10px 20px 10px 20px; height: 35px; text-align: center; opacity: 0.60; filter: alpha(opacity=60); }
+.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
+.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
+
+.flipper {display: inline-block; -moz-transform: scale(-1, 1); -webkit-transform: scale(-1, 1); -o-transform: scale(-1, 1); -ms-transform: scale(-1, 1); transform: scale(-1, 1); }
+
+/* This section is for what happens when you get below 700 pixels - aka the mobile section */
+@media screen and (max-width: 750px) {
+	.left {width: 100%; height: auto; padding-top: 0px; overflow-x: hidden; flex-shrink: 1; }
+	.left img {width: 100%; max-height: 275px; align-items: center; overflow-x: hidden; object-fit: none; } /* The "object fit" command is the one that allows the aspect ratio to br broken when under 600 pixels; otherwise it shows up as the regular square. */
+	.leftbsfp {width: 100%; height: auto; padding-top: 0px; overflow-x: hidden; flex-shrink: 1; }
+	.leftbsfp img {width: 100%; max-height: 275px; align-items: center; overflow-x: hidden; object-fit: none; } /* The "object fit" command is the one that allows the aspect ratio to br broken when under 600 pixels; otherwise it shows up as the regular square. */
+	.right {width: 100%; height: auto: 20px; }
+	.navbar a:link {font-size: 28px; padding-left: 12px; padding-right: 12px; }
+	.pitchbox {justify-content: center; vertical-align: middle; align-items: center; }
+	.pitch {height: 360px; padding: 5% 5% 5% 5%; }
+	.headings {font-size: 22px; line-height: 175%;}
+	.bodytext {display: block; text-align: left; font-family: "Catamaran", "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+	.social {height: 120px; }
+	.social img {padding: 10px 20px 10px 20px; }
+	}
+
+@media screen and (max-height: 700px) {
+	.left {width: 100%; height: auto; padding-top: 0px; overflow-x: hidden; flex-shrink: 1; }
+	.left img {width: 100%; max-height: 280px; align-items: center; overflow-x: hidden; object-fit: none; } /* The "object fit" command is the one that allows the aspect ratio to br broken when under 600 pixels; otherwise it shows up as the regular square. */
+	.right {width: 100%; max-height: 500px; }
+	.navbarbox {height: 80px; }
+	.navbar {margin-top: 10px; }
+	.pitchbox {height: 400px; }
+	.pitch {display: flex; justify-content: center; ; vertical-align: middle; align-items: center; }
+	.social {height: 120px; }
+	}
