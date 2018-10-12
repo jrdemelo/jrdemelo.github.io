@@ -37,11 +37,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.social img {display: flex; padding: 20px 20px 20px 20px; height: 70px; text-align: center; opacity: 0.60; filter: alpha(opacity=60); }
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
-
-
 }
-
-
 /* creating the columns for mobile */
 @media only screen and (max-width: 768px) {
 	.col-m-1 {width: 8.33%;}
@@ -59,6 +55,8 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	
 	.left {display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.left img {width: 100%; max-height: 280px; object-fit: none; overflow-x: hidden; }
+	.leftbs {float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
+	.leftbs img {max-height: 280px; align-items: center; }
 	.right {float: left; display: inline-block; padding: 2.5% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {height: 15%; display: inline-block; font-size: 24px; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center;  }
@@ -66,9 +64,10 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
 	/* Flexbox lets it adjust, align/justify centers everything, flex-wrap allows it to become one column when the page is too small, minwidth doesn't allow it to bleed into one another */
 
+	.heading {height: 10%; display: flex; justify-content: center; align-items: center; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; }
 	.body {height: 50%; display: inline-table; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 2.5% 2.5% 2.5% 2.5%;}
 
-	.notice {height: 15%; display: inline-table; font-size: 14px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; padding: 2.5% 2.5% 2.5% 2.5% }
+	.notice {height: 15%; display: flex; font-size: 12px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; }
 
 	.social {height: 15%; display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; }
 	.social img {padding: 20px 20px 20px 20px; height: 70px; opacity: 0.60; filter: alpha(opacity=60); }
