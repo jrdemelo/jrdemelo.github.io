@@ -17,15 +17,18 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	
 	.left {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
 	.left img {height: 100%; }
+	.leftbs {height: 100%; float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
+	.leftbs img {max-height: 450px; max-width: 450px; align-items: center; }
 	.right {float: left; display: inline-block; padding: 0% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {height: 20%; display: flex; font-size: 28px; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; text-align: center; }
 	.navbar a:link, a:visited {color: black; padding-left: 15px; padding-right: 15px; text-decoration: none; }	
 	.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
 
-	.heading {height: 10%; display: flex; text-align: left; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; }
+	.heading {height: 10%; display: flex; justify-content: center; align-items: center; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; }
 	.body {height: 50%; display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 0% 2.5% 0% 2.5%;}
-	.bodysub {height: 40%; text-align: left; justify-content: left; align-self: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+	.bodysub {height: 40%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+	.bodycyc {height: 40%; display: block; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 200%; padding: 0% 2.5% 0% 2.5%; }
 	.bodybio {height: 50%; display: block; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 200%; padding: 0% 2.5% 0% 2.5%; }
 
 	.notice {height: 15%; display: flex; font-size: 14px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; }
