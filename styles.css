@@ -57,6 +57,10 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.left img {width: 100%; max-height: 280px; object-fit: none; overflow-x: hidden; }
 	.leftbs {float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbs img {max-height: 280px; align-items: center; }
+	.leftcyc {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
+	.leftcyc img {width: 100%; max-height: 280px; object-fit: none; object-position: 44% 12%; overflow-x: hidden; }
+	.leftbio {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
+	.leftbio img {width: 100%; max-height: 280px; object-fit: none; object-position: 46% 50%; overflow-x: hidden; }
 	.right {float: left; display: inline-block; padding: 2.5% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {display: block; font-size: 22px; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center; padding-top: 10px; }
@@ -67,9 +71,9 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.heading {height: 10%; display: block; justify-content: center; text-align: center; font-size: 28px; flex-wrap: wrap; color: black; font-weight: normal; padding-top: 5%; }
 
 	.body {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
-	.bodysub {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
-	.bodycyc {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
-	.bodybio {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodysub {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodycyc {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodybio {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
 
 	.notice {display: flex; font-size: 12px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; padding-top: 5%; }
 
