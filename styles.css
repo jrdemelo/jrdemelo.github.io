@@ -30,12 +30,17 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
 
 	.heading {height: 10%; display: flex; justify-content: center; align-items: center; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; }
-	.body {height: 50%; display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 0% 2.5% 0% 2.5%;}
-	.bodysub {height: 40%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
-	.bodycyc {height: 40%; display: block; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 200%; padding: 0% 2.5% 0% 2.5%; }
-	.bodybio {height: 50%; display: block; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 200%; padding: 0% 2.5% 0% 2.5%; }
+	
+	.body {height: 65%; display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 0% 2.5% 0% 2.5%;}
+	.bodysub {height: 55%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+	.bodysub a {display: contents; }
+	.bodycyc {height: 55%; display: flex; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; padding: 0% 2.5% 0% 2.5%; }	
+	.bodycyc a {display: contents; line-height: 200%; }
+	.bodybio {height: 65%; display: flex; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; padding: 0% 2.5% 0% 2.5%; }
+	.bodybio a {display: contents; line-height: 200%; }
 
 	.notice {height: 15%; display: flex; font-size: 14px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; }
+	/* To re-add notices for desktop remove comments in individual files AND SUBTRACT 15% EACH FROM BODY SECTIONS ABOVE */
 
 	.social {height: 15%; display:flex; align-items: center; justify-content: center; text-align: center; }
 	.social img {display: flex; padding: 20px 20px 20px 20px; height: 70px; text-align: center; opacity: 0.60; filter: alpha(opacity=60); }
@@ -76,19 +81,24 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 
 	.body {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
 	.bodysub {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodysub a {display: contents; }
 	.bodycyc {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodycyc a {line-height: 250%; }
 	.bodybio {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
+	.bodybio a {display: block; }
+
 
 	.notice {display: flex; font-size: 12px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; padding-top: 5%; }
+	/* To re-add notices for mobile just remove comments in individual files */
 
 	.social {display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
-	.social img {padding: 8px 8px 8px 8px; height: 45px; opacity: 0.60; filter: alpha(opacity=60); }
+	.social img {padding: 18px 18px 18px 18px; height: 64px; opacity: 0.60; filter: alpha(opacity=60); }
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
 
 }
-
-.row::after {content: ""; clear: both; display: table; }
+.row {background-color: snow; }
+.row::after {background-color: snow; content: ""; clear: both; display: table; }
 
 /* Old janky css here
 .headings {display: block; text-align: left; font-size: 32px; flex-wrap: wrap; color: black; font-weight: normal; line-height: 200%; max-height: 280px}
