@@ -33,7 +33,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	
 	.body {height: 65%; display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 0% 2.5% 0% 2.5%;}
 	.bodysub {height: 55%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
-	.bodysub a {display: contents; }
+	.bodysub a {display: contents; line-height: 250%; }
 	.bodycyc {height: 55%; display: flex; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; padding: 0% 2.5% 0% 2.5%; }	
 	.bodycyc a {display: contents; line-height: 200%; }
 	.bodybio {height: 65%; display: flex; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; padding: 0% 2.5% 0% 2.5%; }
@@ -81,7 +81,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 
 	.body {display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
 	.bodysub {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
-	.bodysub a {display: contents; }
+	.bodysub a {display: contents; line-height: 250%; }
 	.bodycyc {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
 	.bodycyc a {line-height: 250%; }
 	.bodybio {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
