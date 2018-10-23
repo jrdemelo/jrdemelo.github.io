@@ -27,7 +27,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 
 	.navbar {height: 20%; display: flex; font-size: 28px; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; text-align: center; }
 	.navbar a:link, a:visited {color: black; padding-left: 15px; padding-right: 15px; text-decoration: none; }	
-	.navbar a:hover, a:active {color: darkorchid; padding-left: 20px; padding-right: 20px; text-decoration: none; }
+	.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
 	/* CHANGE BACK TO 15px WHEN YOU RE ADD BSFP - */
 
 	.heading {height: 10%; display: flex; justify-content: center; align-items: center; font-size: 32px; flex-wrap: wrap; color: black; font-weight: bold; }
