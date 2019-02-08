@@ -8,7 +8,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.col-4 {width: 33.33%;}
 	.col-5 {width: 41.66%;}
 	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
+	.col-7 {width: 58.33%;} 
 	.col-8 {width: 66.66%;}
 	.col-9 {width: 75%;}
 	.col-10 {width: 83.33%;}
@@ -20,20 +20,20 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.leftbs {height: 100%; float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbs img {max-height: 450px; max-width: 450px; object-fit: cover; }
 	.leftcyc {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
-	.leftcyc img {height: 100%; object-fit: cover; }	
+	.leftcyc img {height: 100%; object-fit: cover; object-position: 44% 50%;}
 	.leftbio {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
-	.leftbio img {height: 100%; object-fit: cover; }
+	.leftbio img {height: 100%; object-fit: cover; object-position: 44% 60%; }
 	.right {float: left; display: inline-block; padding: 0% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {height: 20%; display: flex; font-size: 28px; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; text-align: center; }
-	.navbar a:link, a:visited {color: black; padding-left: 15px; padding-right: 15px; text-decoration: none; }	
-	.navbar a:hover, a:active {color: darkorchid; padding-left: 15px; padding-right: 15px; text-decoration: none; }
+	.navbar a:link, a:visited {color: black; padding-left: 25px; padding-right: 25px; text-decoration: none; }	
+	.navbar a:hover, a:active {color: darkorchid; padding-left: 25px; padding-right: 25px; text-decoration: none; }
 	/* CHANGE BACK TO 15px WHEN YOU RE ADD BSFP - */
 
 	.heading {height: 10%; display: flex; justify-content: center; align-items: center; font-size: 32px; flex-wrap: wrap; color: black; font-weight: bold; }
 	
 	.body {height: 65%; display: flex; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 0% 2.5% 0% 2.5%;}
-	.bodysub {height: 55%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; }
+	.bodysub {height: 55%; display: flex; justify-content: left; align-items: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%;  padding: 0% 2.5% 0% 2.5%; }
 	.bodysub a {display: contents; line-height: 250%; }
 	.bodycyc {height: 55%; display: flex; align-items: center; vertical-align: center; font-size: 18px; flex-wrap: wrap; color: black; line-height: 175%; padding: 0% 2.5% 0% 2.5%; }	
 	.bodycyc a {display: contents; line-height: 200%; }
@@ -68,9 +68,9 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.leftbs {float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbs img {max-height: 280px; align-items: center; }
 	.leftcyc {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
-	.leftcyc img {width: 100%; max-height: 280px; object-fit: none; object-position: 44% 12%; overflow-x: hidden; }
+	.leftcyc img {width: 100%; max-height: 280px; object-fit: none; object-position: 51% 43%; overflow-x: hidden; }
 	.leftbio {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
-	.leftbio img {width: 100%; max-height: 280px; object-fit: none; object-position: 46% 50%; overflow-x: hidden; }
+	.leftbio img {width: 100%; max-height: 280px; object-fit: none; object-position: 48% 26%; overflow-x: hidden; }
 	.right {float: left; display: inline-block; padding: 2.5% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {display: block; font-size: 24px; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center; padding-top: 10px; }
