@@ -15,14 +15,14 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
 	
-	.left {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
-	.left img {height: 100%; object-fit: cover; }
-	.leftbs {height: 100%; float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
+	.left {float: left; display: grid; height: 100%; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
+	.left img {object-fit: cover; }
+	.leftbs {height: 100%; float: left; display: grid; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbs img {max-height: 450px; max-width: 450px; object-fit: cover; }
-	.leftcyc {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
-	.leftcyc img {height: 100%; object-fit: cover; object-position: 44% 50%;}
-	.leftbio {float: left; display: flex; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
-	.leftbio img {height: 100%; object-fit: cover; object-position: 44% 60%; }
+	.leftcyc {float: left; display: inline-flex; height: 100%; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
+	.leftcyc img {height: auto; object-fit: contain; object-position: 50% 70%;}
+	.leftbio {float: left; display: grid; height: 100%; background-color: snow; justify-content: center; align-content: center; overflow: hidden; }
+	.leftbio img {object-fit: cover; object-position: 44% 60%; }
 	.right {float: left; display: inline-block; padding: 0% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 
 	.navbar {height: 20%; display: flex; font-size: 28px; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; text-align: center; }
@@ -68,7 +68,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.leftbs {float: left; display: flex; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbs img {max-height: 280px; align-items: center; }
 	.leftcyc {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
-	.leftcyc img {width: 100%; max-height: 280px; object-fit: none; object-position: 51% 43%; overflow-x: hidden; }
+	.leftcyc img {width: 100%; max-height: 280px; object-fit: none; object-position: 47% 8%; overflow-x: hidden; }
 	.leftbio {display: block; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
 	.leftbio img {width: 100%; max-height: 280px; object-fit: none; object-position: 48% 26%; overflow-x: hidden; }
 	.right {float: left; display: inline-block; padding: 2.5% 5% 0% 5%; background-color: snow; justify-content: center; align-items: center; overflow: hidden; }
@@ -87,6 +87,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran", "Pa
 	.bodycyc a {line-height: 250%; }
 	.bodybio {display: block; align-items: center; font-size: 18px; flex-wrap: wrap; color: black line-height: 175%; padding: 5% 2.5% 2.5% 2.5%;}
 	.bodybio a {display: block; }
+	.photocredits a {display: block; color: gray; font-size: 14px; }
 
 
 	.notice {display: flex; font-size: 12px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; padding-top: 5%; }
