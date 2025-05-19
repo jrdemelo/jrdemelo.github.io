@@ -52,7 +52,7 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
 
-	.travel-albums {width:100%; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
+	.travel-albums {width:100%; min-height: 70vh; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
 	.travel-albums a {display: contents; line-height: 100%; text-align: center; }
 	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 1.5% 1.5% 1.5% 1.5%; } 
 
@@ -111,10 +111,10 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
 
 
-	.travel-albums {width:100%; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
+	.travel-albums {height: 80%; width:100%; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
 	.travel-albums a {display: contents; line-height: 100%; text-align: center; }
 	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 2% 1% 2% 1%; } 
-	.travel-social {display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
+	.travel-social {height: 20%; display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
 	.travel-social img {padding: 18px 18px 18px 18px; height: 64px; opacity: 0.60; filter: alpha(opacity=60); }
 	.travel-social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.travel-social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
