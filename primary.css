@@ -47,10 +47,15 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	.notice {height: 15%; display: flex; font-size: 14px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; }
 	/* To re-add notices for desktop remove comments in individual files AND SUBTRACT 15% EACH FROM BODY SECTIONS ABOVE */
 
-	.social {height: 15%; display:flex; align-items: center; justify-content: center; text-align: center; }
+	.social {height: 20%; display:flex; align-items: center; justify-content: center; text-align: center; }
 	.social img {display: flex; padding: 20px 20px 20px 20px; height: 70px; text-align: center; opacity: 0.60; filter: alpha(opacity=60); }
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
+
+	.travel-albums {width:100%; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
+	.travel-albums a {display: contents; line-height: 100%; text-align: center; }
+	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 1.5% 1.5% 1.5% 1.5%; } 
+
 }
 /* creating the columns for mobile */
 @media only screen and (max-width: 768px) {
@@ -100,10 +105,22 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	.notice {display: flex; font-size: 12px; color: black; font-style: italic; line-height: 150%; align-items:flex-end; justify-content: center; text-align: center; flex-wrap: wrap; padding-top: 5%; }
 	/* To re-add notices for mobile just remove comments in individual files */
 
-	.social {display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
+	.social {height: 20%; display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
 	.social img {padding: 18px 18px 18px 18px; height: 64px; opacity: 0.60; filter: alpha(opacity=60); }
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
+
+
+	.travel-albums {width:100%; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
+	.travel-albums a {display: contents; line-height: 100%; text-align: center; }
+	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 2% 1% 2% 1%; } 
+	.travel-social {display: flex; align-items: center; justify-content: center; align-content: center; text-align: center; padding-top: 5%; }
+	.travel-social img {padding: 18px 18px 18px 18px; height: 64px; opacity: 0.60; filter: alpha(opacity=60); }
+	.travel-social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
+	.travel-social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
+
+
+
 
 }
 .row {background-color: snow; }
