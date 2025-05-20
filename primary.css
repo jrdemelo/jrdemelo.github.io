@@ -52,10 +52,10 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	.social img:hover {opacity: 1.0; filter: alpha(opacity=100); }
 	.social a:hover, a:active {padding: 0px 0px 0px 0px; } /*This section here is necessary to overwrite the previous/parent settings for links in this section, otherwise it just goes back and takes the parent settings from the navbar */
 
-	.travel-albums {width:100%; min-height: 70vh; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 2.5% 5% 2.5% 5%; }
+	.travel-albums {width:100%; min-height: 70vh; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 4% 4% 4% 4%; }
 	.travel-albums a {display: contents; line-height: 100%; text-align: center; }
-	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 1.5% 1.5% 1.5% 1.5%; } 
-
+	.travel-albums-image {width: 300px; height: 300px; object-fit: cover; border-radius: var(--border-radius); padding: 2% 2% 2% 2%; } 
+	.travel-albums figcaption {font-size: 115%; padding: 3% 0% 0% 0%; }
 }
 /* creating the columns for mobile */
 @media only screen and (max-width: 768px) {
