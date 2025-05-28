@@ -53,9 +53,9 @@ body {margin: 0 !important; padding: 0 !important; font-family: "Catamaran","Pal
 	/* styles for the travel albums and captions on the lightbox page */
 	.travel-albums {width:100%; min-height: 70vh; min-width: 0; display: flex; align-content: space-evenly; justify-content: space-evenly; vfont-size: 18px; flex-wrap: wrap; color: black; line-height: 100%; padding: 0% 10% 0% 10%; }
 		.travel-albums a {display: contents; line-height: 100%; text-align: center; }
-		.travel-albums img {width: 100%; height: auto; max-width: 200px; max-height: 200px; aspect-ratio: 1/1; object-fit: cover; border-radius: var(--border-radius); }
+		.travel-albums img {width: 100%; height: auto; max-width: 300px; max-height: 300px; aspect-ratio: 1/1; object-fit: cover; border-radius: var(--border-radius); }
 		.travel-albums figure {margin: 20px 20px 20px 20px; }
-		.travel-albums figcaption {max-width: 200px;font-size: 115%; padding: 5% 0% 0% 0%; }
+		.travel-albums figcaption {max-width: 300px;font-size: 115%; padding: 5% 0% 0% 0%; }
 
 	/* styles for the footer and links */
 	.social {height: 10%; display:flex; align-items: center; justify-content: center; text-align: center; }
